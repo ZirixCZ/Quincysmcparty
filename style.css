@@ -70,9 +70,11 @@ body {
 /*title section*/
 
 #section-title {
-    height: 600px;
+    height: 100%;
     width: 100%;
-    background-color:#00203FFF;
+    background-image: url(resources/minecraft-house-road-pumkin-night.png);
+    background-repeat: repeat-x;
+    background-size: cover;
 }
 
 .fade-in {
@@ -95,6 +97,8 @@ body {
     margin-left: 325px;
     color: #fdff70;
     font-size: 110px;
+
+    text-shadow: rgb(26, 26, 26) 0px 0px 2px;
 }
 
 #section-title_button-IP {
@@ -107,10 +111,11 @@ body {
     width: 800px;
     position: relative;
     overflow: hidden;
+    text-shadow: rgb(255, 255, 255) 0px 0px 3px;
 }
 
 #section-title_button-IP {
-    background: linear-gradient(to right, rgb(214, 226, 106), rgb(211, 202, 76) 50%, rgb(251, 222, 68) 50%);
+    background: linear-gradient(to right, rgb(255, 192, 76), rgb(238, 255, 0) 50%);
 }
 
 #section-title_button-IP {
@@ -153,7 +158,7 @@ body {
 }
 
 #section-title_button-Discord {
-    background: linear-gradient(to right, rgb(214, 226, 106), rgb(211, 202, 76) 50%, rgb(251, 222, 68) 50%);
+    background: linear-gradient(to right, rgb(252, 248, 0), rgb(255, 231, 19) 50%, rgb(255, 213, 0) 50%);
 }
 
 #section-title_button-Discord {
@@ -195,18 +200,25 @@ body {
 #section-about_paragraph-span1 {
     color: #fbff00;
     cursor: pointer;
+    text-shadow: rgb(255, 255, 255) 0px 0px 3px;
 }
 
 #section-about_paragraph-span2 {
     color: #00ff9d;
+    text-shadow: rgb(255, 255, 255) 0px 0px 3px;
 }
 
 
 /*events section*/
 
 #section-events {
-    height: 1500px;
+    height: 140%;
     width: 100%;
+    background-image: url(resources/minecraft-house-pumkin-further.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .section-events_title {
@@ -223,6 +235,8 @@ body {
     margin-left: 575px;
     color: #FFE77AFF;
     font-size: 140px;
+    text-shadow: black 0px 0px 10px;
+
 }
 
 #section-events_event_title {
@@ -234,6 +248,8 @@ body {
     margin-left: -600px;
     color: rgb(171, 255, 122);
     font-size: 70px;
+    font-weight: 700;
+    text-shadow: black 0px 0px 5px;
 }
 
 #section-events_event_title-span {
@@ -246,9 +262,11 @@ body {
     letter-spacing: 5px;
     position: relative;
     text-align: center;
-    margin-left: -760px;
+    margin-left: -550px;
     color: rgb(172, 216, 217);
     font-size: 70px;
+    font-weight: 700;
+    text-shadow: black 0px 0px 5px;
 }
 
 #section-events_event_title-span2 {
@@ -267,6 +285,8 @@ body {
     font-size: 50px;
     margin-left: 500px;
     color: rgb(240, 198, 135);
+    font-weight: 500;
+    text-shadow: rgb(0, 0, 0) 0px 0px 10px;
 }
 #server-connectus {
     top: -20px;
@@ -275,6 +295,8 @@ body {
     font-size: 50px;
     margin-left: 500px;
     color: rgb(240, 198, 135);
+    font-weight: 500;
+    text-shadow: black 0px 0px 10px;
 }
 
 
