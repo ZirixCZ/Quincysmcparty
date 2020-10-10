@@ -16,8 +16,9 @@
 <div class="topnav" id="myTopnav">
     <a href="https://www.quincyscp.ga/" class="active">SCP-SL</a>
     <a href="#section-info">Info</a>
-    <a href="#contact">Contact</a>
-    <a href="#about">About</a>
+    <a href="#community-section">Community</a>
+    <a href="#livemap">Live Map</a>
+    <a href="https://discord.gg/Vjhvv5J">Discord</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
       <i class="fa fa-bars"></i>
     </a>
@@ -29,34 +30,53 @@
         <div class="bg-image"></div>
         <div class="bg-text">
                     <h1 id="title_h1-title">Quincys Minecraft Party</h1>
-                    <p id="bg-text-title-p1" id="title_p1-mserip">The IP Adress! (Clickable).</p> 
+                    <p id="title_p1-mserip" onclick="textChange()">The IP Adress! (Clickable).</p> 
         </div>
-<section id="section-info">
     </div>
-    <div class="info-text">
-        <h2>List of Staff</h2>
-        <lo id="info-stafflist-lo">
-            <li>JustCallMeQuincy | JustCallMeQuincy#0317</lu>
-            <li>DemonHypsi | [𝕱𝖆𝖙𝖍𝖊𝖗_𝕲𝖚𝖆𝖗𝖉𝖎𝖆𝖓]#8393</lu>
-            <li>S_VB | S_VB#7968</lu>
-            <li>GameGameGameGay | Terrorist_Elmo#9058</lu>
-            <li>Excalibur_42 | Phamtomboy12#1171</lu>
-        </li>
+<section id="section-info">
+
+    <div class="whytoj-text">
+        <h2>We have</h2>
+        <lo id="info-whytoj-lo">
+            <li>Self made spawn area.</li>
+            <li>Very active, friendly staff.</li>
+            <li>Super cool interactive live map!</li>
+        </lo>
+    </div>
+    <div class="infoboutaserver">
+        <h2>Server Info</h2>
+        <lo id="infoboutaserver-lo">
+            <li>The server is survival-based.</li>
+            <li>We have many plugins, such as /home.</li>
+            <li>Our server uses the latest versions of Minecraft.<span id="infoboutaserver-lo-span"> 1.13.x - 1.16.3</span></li>
+        </lo>
     </div>
 </section>
 
+<section id="community-section">
+    <div class="info-text">
+        <h2>List of Staff</h2>
+        <lo id="info-stafflist-lo">
+            <li>JustCallMeQuincy <span id="info-stafflist-lo-span">|</span> JustCallMeQuincy#0317</lu>
+            <li>DemonHypsi <span id="info-stafflist-lo-span">|</span> [𝕱𝖆𝖙𝖍𝖊𝖗_𝕲𝖚𝖆𝖗𝖉𝖎𝖆𝖓]#8393</lu>
+            <li>S_VB <span id="info-stafflist-lo-span">|</span> S_VB#7968</lu>
+            <li>GameGameGameGay <span id="info-stafflist-lo-span">|</span> Terrorist_Elmo#9058</lu>
+            <li>Excalibur_42 <span id="info-stafflist-lo-span">|</span> Phamtomboy12#1171</lu>
+        </lo>
+    </div>
 
-<script>
-    function myFunction() {
-      var x = document.getElementById("myTopnav");
-      if (x.className === "topnav") {
-        x.className += " responsive";
-      } else {
-        x.className = "topnav";
-      }
-    }
-    </script>
+    <div class="info-active-users">
+        <h2>Active People</h2>
+        <lo id="info-activeppllist-lo">
+            <li>Zirix!... :(</li>
+        </lo>
+    </div>
+</section>
 
+<iframe id="livemap" src="http://193.121.28.29:4269/" width="100%" height="1200">
+    <p>Your browser does not support iframes.</p>
+  </iframe>
 
 </body>
+<script src="index.js"></script>
 </html>
