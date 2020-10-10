@@ -6,10 +6,26 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
     <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
 </head>
 <body>
+<!--navbar-->
+<div class="topnav" id="myTopnav">
+    <a href="https://www.quincyscp.ga/" class="active">SCP-SL</a>
+    <a href="#section-info">Info</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+
+
+
         <div class="bg-image"></div>
         <div class="bg-text">
                     <h1 id="title_h1-title">Quincys Minecraft Party</h1>
@@ -28,5 +44,19 @@
         </li>
     </div>
 </section>
+
+
+<script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+
+
 </body>
 </html>
