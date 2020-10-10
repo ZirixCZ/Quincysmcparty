@@ -85,7 +85,7 @@ body, html {
 }
 
 /* Style the links inside the navigation bar */
-#topnav_p {
+.topnav a {
   float: left;
   display: block;
   color: #f2f2f2;
