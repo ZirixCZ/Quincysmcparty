@@ -1,74 +1,148 @@
 body, html {
-    height: 100%;
-    background-image: url(resources/minecraft-house.pumkins.png);
-    font-family: 'Balsamiq Sans', cursive;
-    margin: 0;
-  }
-  
-  * {
-    box-sizing: border-box;
-  }
-  
-  .bg-image {
-    background-image: url(resources/minecraft-house-road-pumkin-night.png);
-    height: 100%;
+  height: 100%;
+  background-image: url(resources/minecraft-house.pumkins.png);
+  font-family: 'Balsamiq Sans', cursive;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  background-image: url(resources/minecraft-house-road-pumkin-night.png);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+}
+
+.bg-text {
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  font-size: 23px;
+}
+#title_p1-mserip {
+  font-weight: 100;
+
+}
+#title_h1-title {
+  text-shadow: rgb(255, 210, 64) 0px 0px 1px;
+}
+
+#section-info {
+    height: 105%;
+    width: 100%;
+    background-image: url(resources/Blurry.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
+}
 
-  }
-  
-  .bg-text {
-    background-color: rgb(0,0,0); 
-    background-color: rgba(0,0,0, 0.4);
-    color: white;
-    font-weight: bold;
-    border: 3px solid #f1f1f1;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80%;
-    padding: 20px;
-    text-align: center;
-    font-size: 23px;
-  }
-  #bg-text-title-p1 {
-    text-shadow: rgb(243, 240, 87) 0px 0px 1px;
+.whytoj-text {
+  text-shadow: rgb(0, 0, 0) 0px 0px 2px;
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  left: 50%;
+  top: 170%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  font-size: 25px;
+}
+#info-whytoj-lo {
+  text-align: justify;
+}
 
-  }
-  #title_h1-title {
-    text-shadow: rgb(255, 210, 64) 0px 0px 2px;
-  }
+.infoboutaserver {
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  left: 50%;
+  top: 130%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  font-size: 25px;
+  text-shadow: rgb(0, 0, 0) 0px 0px 2px;
+}
+#infoboutaserver-lo {
+  text-align: justify;
+}
+#infoboutaserver-lo-span {
+  color: rgb(255, 245, 106);
+  text-shadow: rgb(0, 0, 0) 0px 0px 2px;
+}
 
-  #section-info {
-      height: 100%;
-      width: 100%;
-      background-image: url(resources/Blurry.png);
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-  }
-  .info-text {
-    background-color: rgb(0,0,0); 
-    background-color: rgba(0,0,0, 0.4);
-    color: white;
-    font-weight: bold;
-    position: absolute;
-    left: 50%;
-    top: 130%;
-    transform: translate(-50%, -50%);
-    width: 80%;
-    padding: 20px;
-    text-align: center;
-    font-size: 25px;
-  }
-  #info-stafflist-lo {
-    text-align: justify;
-  }
 
+
+#community-section {
+  height: 100%;
+  width: 100%;
+  background-image: url(resources/mc-house-top-halloween.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.info-text {
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  left: 50%;
+  top: 240%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  font-size: 25px;
+  text-shadow: rgb(0, 0, 0) 0px 0px 2px;
+}
+#info-stafflist-lo {
+  text-align: justify;
+}
+#info-stafflist-lo-span {
+  color: rgb(255, 174, 0);
+}
+.info-active-users {
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  left: 50%;
+  top: 280%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  font-size: 25px;
+  text-shadow: rgb(0, 0, 0) 0px 0px 2px;
+}
+#info-activeppllist-lo {
+  text-align: justify;
+}
 
 
 
@@ -76,38 +150,39 @@ body, html {
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #333;
-  overflow: hidden;
-  position: fixed;
-  top: 0;
-  z-index: 1;
-  width: 100%;
+background-color: #333;
+overflow: hidden;
+position: fixed;
+top: 0;
+z-index: 1;
+width: 100%;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+float: left;
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 12px 30px;
+border-radius: 3px;
+text-decoration: none;
+font-size: 17px;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+background-color: rgb(238, 238, 238);
+color: black;
 }
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: #F65058FF;
-  color: white;
+background-color: #F65058FF;
+color: white;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
-  display: none;
+display: none;
 }
