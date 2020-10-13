@@ -21,5 +21,5 @@ function myFunction() {
         window.open("https://discord.gg/Vjhvv5J")
       }
       function LivemapOpenFUNC() {
-        window.open("http://193.121.28.29:4269/")
+        window.open("https://www.youtube.com/watch?v=HIqQ0PfuPo8")
       }
