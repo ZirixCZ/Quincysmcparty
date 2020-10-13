@@ -23,5 +23,15 @@
   @media screen and (max-width: 650px) {
     .whytoj-text {
       top: 180%;
+      font-size: 20px;
+    }
+    .infoboutaserver {
+      font-size: 20px;
+    }
+    .info-text {
+      font-size: 20px;
+    }
+    .info-active-users {
+      font-size: 20px;
     }
   }
