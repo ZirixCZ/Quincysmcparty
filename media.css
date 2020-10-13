@@ -30,8 +30,10 @@
     }
     .info-text {
       font-size: 18px;
+      top: 250%;
     }
     .info-active-users {
       font-size: 15px;
+      top: 295%;
     }
   }
