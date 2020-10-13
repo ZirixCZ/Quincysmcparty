@@ -20,3 +20,6 @@ function myFunction() {
       function DiscordInvite() {
         window.open("https://discord.gg/Vjhvv5J")
       }
+      function LivemapOpenFUNC() {
+        window.open("http://193.121.28.29:4269/")
+      }
