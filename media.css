@@ -19,3 +19,9 @@
       text-align: left;
     }
   }
+
+  @media screen and (max-width: 650px) {
+    .whytoj-text {
+      top: 180%;
+    }
+  }
