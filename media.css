@@ -37,3 +37,8 @@
       top: 295%;
     }
   }
+  @media screen and (max-width: 1000px) {
+    .topnav a {
+      padding: 12px 20px;
+    }
+  }
