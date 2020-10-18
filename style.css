@@ -12,13 +12,12 @@ body, html {
 }
 
 .bg-image {
-  background-image: url(resources/minecraft-house-road-pumkin-night.png);
+  background-image: url(resources/fountainmc.png);
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
+
 
 }
 
@@ -49,7 +48,7 @@ body, html {
 #section-info {
     height: 105%;
     width: 100%;
-    background-image: url(resources/Blurry.png);
+    background-image: url(resources/castlemc.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -103,7 +102,7 @@ body, html {
 #community-section {
   height: 100%;
   width: 100%;
-  background-image: url(resources/mc-house-top-halloween.png);
+  background-image: url(resources/underwatermc.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -170,6 +169,7 @@ padding: 12px 40px;
 border-radius: 3px;
 text-decoration: none;
 font-size: 17px;
+font-weight: 800;
 }
 
 .topnav a:hover {
@@ -179,8 +179,9 @@ transition: 0.2s ease-in-out;
 }
 
 .topnav a.active {
-background-color: #F65058FF;
-color: white;
+background-color: rgb(255, 244, 207);
+color: rgb(0, 0, 0);
+font-weight: 900;
 }
 
 .topnav .icon {
@@ -205,5 +206,5 @@ display: none;
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background:#F65058FF;
+  background: rgb(255, 244, 207);
 }
