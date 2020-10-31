@@ -36,6 +36,7 @@ body, html {
   padding: 20px;
   text-align: center;
   font-size: 23px;
+  text-shadow: rgb(0, 0, 0) 0px 0px 3px;
 }
 #title_p1-mserip {
   font-weight: 100;
