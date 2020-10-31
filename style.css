@@ -154,8 +154,8 @@ body, html {
 .topnav {
 background-color: #333;
 overflow: hidden;
+top: 0px;
 position: fixed;
-top: 0;
 z-index: 1;
 width: 100%;
 }
@@ -171,7 +171,12 @@ text-decoration: none;
 font-size: 17px;
 font-weight: 800;
 }
-
+#count_down-p {
+  color: white;
+}
+#count_down-p:hover {
+  color: black;
+}
 .topnav a:hover {
 background-color: rgb(238, 238, 238);
 color: black;
