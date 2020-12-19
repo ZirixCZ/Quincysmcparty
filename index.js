@@ -21,7 +21,7 @@ function myFunction() {
         window.open("https://discord.gg/F2zFuaB")
       }
       function LivemapOpenFUNC() {
-        window.open("http://62.235.120.101:4269/")
+        window.open("http://83.134.97.93:4269/")
       }
 
       /*count down*/
