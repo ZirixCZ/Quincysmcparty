@@ -3,7 +3,7 @@ body, html {
   width: 100%;
   scroll-behavior: smooth;
   background-image: url(resources/minecraft-house.pumkins.png);
-  font-family: 'Cairo', sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
 }
 
@@ -20,12 +20,15 @@ body, html {
 
 
 }
-
+h2 {
+  color: white;
+}
 .bg-text {
+  font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(0,0,0); 
   background-color: rgba(0,0,0, 0.4);
   color: white;
-  font-weight: bold;
+  font-weight: 200;
   border: 3px solid #f1f1f1;
   border-radius: 3px;
   position: absolute;
@@ -36,7 +39,7 @@ body, html {
   padding: 20px;
   text-align: center;
   font-size: 23px;
-  text-shadow: rgb(0, 0, 0) 0px 0px 3px;
+  text-shadow: rgb(0, 0, 0) 0px 0px 5px;
 }
 #title_p1-mserip {
   font-weight: 100;
@@ -59,8 +62,8 @@ body, html {
   text-shadow: rgb(0, 0, 0) 0px 0px 2px;
   background-color: rgb(0,0,0); 
   background-color: rgba(0,0,0, 0.4);
-  color: white;
-  font-weight: bold;
+  color: rgb(218, 218, 218);
+  font-weight: 200;
   position: absolute;
   left: 50%;
   top: 170%;
@@ -77,8 +80,8 @@ body, html {
 .infoboutaserver {
   background-color: rgb(0,0,0); 
   background-color: rgba(0,0,0, 0.4);
-  color: white;
-  font-weight: bold;
+  color: rgb(218, 218, 218);
+  font-weight: 200;
   position: absolute;
   left: 50%;
   top: 130%;
@@ -93,13 +96,77 @@ body, html {
   text-align: justify;
 }
 #infoboutaserver-lo-span {
-  color: rgb(255, 245, 106);
+  color: rgba(255, 245, 106, 0.918);
   text-shadow: rgb(0, 0, 0) 0px 0px 2px;
   cursor: pointer;
+  font-weight: 900;
 }
 
 
-
+#contact_info {
+  height: 50%;
+  width: 100%;
+  background-color: #17191b;
+  color: white;
+}
+.text_footer {
+ position: relative;
+ width: 100%;
+ height: 0%;
+ top: 20%;
+}
+#h1_text-foooter-discord {
+  position: relative;
+  color: white;
+  margin-left: 5%;
+}
+#text_footer-p {
+  position: relative;
+  color: rgb(131, 131, 131);
+  font-size: 20px;
+  line-height: 1.5;
+  width: 30%;
+  margin-left: 5%;
+}
+.text-footer-email {
+  top: 0;
+  position: relative;
+  margin-left: 50%;
+  line-height: 1.5;
+  top: 20%;
+}
+#h1_text-footer-email {
+  top: 0;
+  position: relative;
+  margin-left: 50%;
+}
+#text-footer-p-email {
+  color: rgb(131, 131, 131);
+  top: 0;
+  position: relative;
+  margin-left: 50%;
+}
+#footer-email-span {
+  color: white;
+}
+.footer-watermark {
+  position: relative;
+  bottom: 0;
+}
+#watermark {
+  font-size: 16px;
+  color: rgb(131, 131, 131);
+  position: relative;
+  margin-left: 40.5%;
+  margin-top: 13%;
+}
+#footer-quincymcp {
+  font-style: italic;
+  font-weight: bold;
+}
+#footer-watermark-span {
+  font-style: italic;
+}
 #community-section {
   height: 100%;
   width: 100%;
@@ -111,8 +178,8 @@ body, html {
 .info-text {
   background-color: rgb(0,0,0); 
   background-color: rgba(0,0,0, 0.4);
-  color: white;
-  font-weight: bold;
+  color: rgb(218, 218, 218);
+  font-weight: 200;
   position: absolute;
   text-align: center;
   left: 50%;
@@ -132,8 +199,8 @@ body, html {
 .info-active-users {
   background-color: rgb(0,0,0); 
   background-color: rgba(0,0,0, 0.4);
-  color: white;
-  font-weight: bold;
+  color: rgb(218, 218, 218);
+  font-weight: 200;
   position: absolute;
   left: 50%;
   top: 280%;
@@ -170,7 +237,7 @@ padding: 12px 40px;
 border-radius: 3px;
 text-decoration: none;
 font-size: 17px;
-font-weight: 800;
+font-weight: 200;
 }
 .topnav a:hover {
 background-color: rgb(238, 238, 238);
