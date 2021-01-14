@@ -24,7 +24,7 @@ function myFunction() {
         window.open("http://83.134.97.93:4269/")
       }
 
-      /*count down*/
+      /*count down
       var countDownDate = new Date ("Nov 7, 2020 17:30:00").getTime();
       var x = setInterval(function() {
         var now = new Date().getTime();
@@ -41,4 +41,4 @@ function myFunction() {
           clearInterval(x);
           document.getElementById("title_p1-mserip").innerHTML = "Enjoy!"
         }
-      }, 1000);
+      }, 1000);*/
