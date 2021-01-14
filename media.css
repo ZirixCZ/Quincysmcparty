@@ -36,6 +36,9 @@
       font-size: 15px;
       top: 290%;
     }
+    #footer-email-span {
+      font-size: 8px;
+    }
   }
   @media screen and (max-width: 999px) {
     .text_footer {
