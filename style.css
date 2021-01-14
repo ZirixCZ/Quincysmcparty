@@ -120,6 +120,10 @@ h2 {
   color: white;
   margin-left: 5%;
 }
+#footer-discord-link {
+  color: white;
+  cursor: pointer;
+}
 #text_footer-p {
   position: relative;
   color: rgb(131, 131, 131);
