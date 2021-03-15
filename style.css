@@ -6,15 +6,19 @@ body, html {
   font-family: 'Roboto', sans-serif;
   margin: 0;
 }
+
 * {
   box-sizing: border-box;
 }
+
 .bg-image {
   background-image: url(resources/fountainmc.png);
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+
 }
 h2 {
   color: white;
@@ -39,10 +43,12 @@ h2 {
 }
 #title_p1-mserip {
   font-weight: 100;
+
 }
 #title_h1-title {
   text-shadow: rgb(255, 210, 64) 0px 0px 1px;
 }
+
 #section-info {
     height: 105%;
     width: 100%;
@@ -51,6 +57,7 @@ h2 {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .whytoj-text {
   text-shadow: rgb(0, 0, 0) 0px 0px 2px;
   background-color: rgb(0,0,0); 
@@ -69,6 +76,7 @@ h2 {
 #info-whytoj-lo {
   text-align: justify;
 }
+
 .infoboutaserver {
   background-color: rgb(0,0,0); 
   background-color: rgba(0,0,0, 0.4);
@@ -93,6 +101,8 @@ h2 {
   cursor: pointer;
   font-weight: 900;
 }
+
+
 #contact_info {
   height: 50%;
   width: 100%;
@@ -125,7 +135,6 @@ h2 {
 .text-footer-email {
   top: 0;
   position: relative;
-  margin-left: 50%;
   margin-left: 45%;
   line-height: 1.5;
   top: 20%;
@@ -209,7 +218,11 @@ h2 {
 #info-activeppllist-lo {
   text-align: justify;
 }
+
+
+
 /*navbar*/
+
 .topnav {
 background-color: #333;
 overflow: hidden;
@@ -218,6 +231,7 @@ position: fixed;
 z-index: 1;
 width: 100%;
 }
+
 .topnav a {
 float: left;
 display: block;
@@ -234,11 +248,13 @@ background-color: rgb(238, 238, 238);
 color: black;
 transition: 0.2s ease-in-out;
 }
+
 .topnav a.active {
 background-color: rgb(255, 244, 207);
 color: rgb(0, 0, 0);
 font-weight: 900;
 }
+
 .topnav .icon {
 display: none;
 }
@@ -247,15 +263,18 @@ display: none;
 ::-webkit-scrollbar {
   width: 10px;
 }
+
 /* Track */
 ::-webkit-scrollbar-track {
   background-color: #333;
 }
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background:  #f2f2f2;
   border-radius: 1px;
 }
+
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(255, 244, 207);
