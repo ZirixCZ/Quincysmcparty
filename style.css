@@ -1,281 +1,494 @@
 body, html {
   height: 100%;
   width: 100%;
+  background-color: black;
+  margin: auto;
+  font-family: 'Recursive', sans-serif;
+  color: white;
   scroll-behavior: smooth;
-  background-image: url(resources/minecraft-house.pumkins.png);
-  font-family: 'Roboto', sans-serif;
-  margin: 0;
 }
 
-* {
-  box-sizing: border-box;
+.navbar {
+  position: fixed;
+  left: 5%;
+  height: 10%;
+  top: 0%;
+  z-index: 1;
+  cursor: pointer;
 }
 
-.bg-image {
-  background-image: url(resources/fountainmc.png);
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-
-}
-h2 {
+.navbar a {
+  text-shadow: black 0px 0px 2px;
   color: white;
+  text-decoration: none;
+  position: relative;
+  top: 25%;
+  padding: 12px 40px;
+  font-size: 15px;
 }
-.bg-text {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(0,0,0); 
-  background-color: rgba(0,0,0, 0.4);
-  color: white;
-  font-weight: 200;
-  border: 3px solid #f1f1f1;
-  border-radius: 3px;
+
+.navbar a:hover {
+  text-shadow: black 0px 0px 5px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.main-title {
   position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 80%;
-  padding: 20px;
   text-align: center;
-  font-size: 23px;
-  text-shadow: rgb(0, 0, 0) 0px 0px 5px;
-}
-#title_p1-mserip {
-  font-weight: 100;
-
-}
-#title_h1-title {
-  text-shadow: rgb(255, 210, 64) 0px 0px 1px;
+  width: 70%;
+  padding: 30px;
+  border: 2px solid white;
+  background-color: rgba(0, 0, 0, 0.158);
+  border-radius: 10px;
 }
 
-#section-info {
-    height: 105%;
-    width: 100%;
-    background-image: url(resources/castlemc.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.whytoj-text {
-  text-shadow: rgb(0, 0, 0) 0px 0px 2px;
-  background-color: rgb(0,0,0); 
-  background-color: rgba(0,0,0, 0.4);
-  color: rgb(218, 218, 218);
-  font-weight: 200;
-  position: absolute;
-  left: 50%;
-  top: 170%;
-  transform: translate(-50%, -50%);
-  width: 80%;
-  padding: 20px;
-  text-align: center;
-  font-size: 25px;
-}
-#info-whytoj-lo {
-  text-align: justify;
-}
-
-.infoboutaserver {
-  background-color: rgb(0,0,0); 
-  background-color: rgba(0,0,0, 0.4);
-  color: rgb(218, 218, 218);
-  font-weight: 200;
-  position: absolute;
-  left: 50%;
-  top: 130%;
-  transform: translate(-50%, -50%);
-  width: 80%;
-  padding: 20px;
-  text-align: center;
-  font-size: 25px;
-  text-shadow: rgb(0, 0, 0) 0px 0px 2px;
-}
-#infoboutaserver-lo {
-  text-align: justify;
-}
-#infoboutaserver-lo-span {
-  color: rgba(255, 245, 106, 0.918);
-  text-shadow: rgb(0, 0, 0) 0px 0px 2px;
-  cursor: pointer;
-  font-weight: 900;
-}
-
-
-#contact_info {
-  height: 50%;
-  width: 100%;
-  background-color: #17191b;
+.main-title h1 {
+  position: relative;
+  font-size: 50px;
   color: white;
 }
-.text_footer {
- position: relative;
- width: 100%;
- height: 0%;
- top: 20%;
-}
-#h1_text-foooter-discord {
-  position: relative;
-  color: white;
-  margin-left: 5%;
-}
-#footer-discord-link {
-  color: white;
-  cursor: pointer;
-}
-#text_footer-p {
-  position: relative;
-  color: rgb(131, 131, 131);
-  font-size: 20px;
-  line-height: 1.5;
-  width: 30%;
-  margin-left: 5%;
-}
-.text-footer-email {
-  top: 0;
-  position: relative;
-  margin-left: 45%;
-  line-height: 1.5;
-  top: 20%;
-}
-#h1_text-footer-email {
-  top: 0;
-  position: relative;
-  margin-left: 50%;
-}
-#text-footer-p-email {
-  color: rgb(131, 131, 131);
-  top: 0;
-  position: relative;
-  margin-left: 50%;
-}
-#footer-email-span {
-  color: white;
-}
-.footer-watermark {
-  position: relative;
-  bottom: 0;
-}
-#watermark {
-  font-size: 16px;
-  color: rgb(131, 131, 131);
-  position: relative;
-  margin-left: 40.5%;
-  margin-top: 13%;
-}
-#footer-quincymcp {
-  font-style: italic;
-  font-weight: bold;
-}
-#footer-watermark-span {
-  font-style: italic;
-}
-#community-section {
+
+.main-parallax {
+  background-image: url("resources/minecraftcastlebig_2x.png");
   height: 100%;
-  width: 100%;
-  background-image: url(resources/underwatermc.jpg);
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.info-text {
-  background-color: rgb(0,0,0); 
-  background-color: rgba(0,0,0, 0.4);
-  color: rgb(218, 218, 218);
-  font-weight: 200;
-  position: absolute;
-  text-align: center;
-  left: 50%;
-  top: 240%;
-  transform: translate(-50%, -50%);
-  width: 80%;
-  padding: 20px;
-  font-size: 25px;
-  text-shadow: rgb(0, 0, 0) 0px 0px 2px;
-}
-#info-stafflist-lo {
-  text-align: justify;
-}
-#info-stafflist-lo-span {
-  color: rgb(255, 174, 0);
-}
-.info-active-users {
-  background-color: rgb(0,0,0); 
-  background-color: rgba(0,0,0, 0.4);
-  color: rgb(218, 218, 218);
-  font-weight: 200;
-  position: absolute;
-  left: 50%;
-  top: 280%;
-  transform: translate(-50%, -50%);
-  width: 80%;
-  padding: 20px;
-  text-align: center;
-  font-size: 25px;
-  text-shadow: rgb(0, 0, 0) 0px 0px 2px;
-}
-#info-activeppllist-lo {
-  text-align: justify;
-}
 
-
-
-/*navbar*/
-
-.topnav {
-background-color: #333;
-overflow: hidden;
-top: 0px;
-position: fixed;
-z-index: 1;
-width: 100%;
-}
-
-.topnav a {
-float: left;
-display: block;
-color: #f2f2f2;
-text-align: center;
-padding: 12px 40px;
-border-radius: 3px;
-text-decoration: none;
-font-size: 17px;
-font-weight: 200;
-}
-.topnav a:hover {
-background-color: rgb(238, 238, 238);
-color: black;
-transition: 0.2s ease-in-out;
-}
-
-.topnav a.active {
-background-color: rgb(255, 244, 207);
-color: rgb(0, 0, 0);
-font-weight: 900;
-}
-
-.topnav .icon {
-display: none;
-}
-/* scrollbar */
-/* width */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 5px;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
-  background-color: #333;
+  background-color: black;
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
-  background:  #f2f2f2;
-  border-radius: 1px;
+  background: white;
+  border-radius: 4px;
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(255, 244, 207);
+  background: rgba(255, 255, 255, 0.856);
 }
+
+.arrow {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.arrow span {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-bottom: 5px solid #ffffff;
+  border-right: 5px solid #ffffff;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  margin: -10px;
+  -webkit-animation: animate 2s infinite;
+          animation: animate 2s infinite;
+}
+
+.arrow span:nth-child(2) {
+  -webkit-animation-delay: -0.2s;
+          animation-delay: -0.2s;
+}
+
+.arrow span:nth-child(3) {
+  -webkit-animation-delay: -0.4s;
+          animation-delay: -0.4s;
+}
+
+@-webkit-keyframes animate {
+  0% {
+    opacity: 0;
+    -webkit-transform: rotate(45deg) translate(-20px, -20px);
+            transform: rotate(45deg) translate(-20px, -20px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: rotate(45deg) translate(20px, 20px);
+            transform: rotate(45deg) translate(20px, 20px);
+  }
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+    -webkit-transform: rotate(45deg) translate(-20px, -20px);
+            transform: rotate(45deg) translate(-20px, -20px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: rotate(45deg) translate(20px, 20px);
+            transform: rotate(45deg) translate(20px, 20px);
+  }
+}
+
+#info-s {
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+}
+
+.info-s-title {
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  left: 50%;
+  top: 115%;
+  font-size: 30px;
+  text-align: center;
+}
+
+.info-s-title h2 {
+  position: relative;
+}
+
+.info-s-li {
+  position: relative;
+  list-style-type: none;
+  line-height: 100px;
+  top: 30%;
+  left: 5%;
+  width: 40%;
+  font-size: 20px;
+}
+
+.info-s-imagecointainer {
+  position: absolute;
+  top: 130%;
+}
+
+.join-s-image {
+  position: relative;
+  width: 50%;
+  left: 45%;
+  top: 0%;
+  border-radius: 30px;
+}
+
+#fortressclose-s {
+  height: 50%;
+  background-image: url("resources/minecraftfortresspng_4x.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#fortressclose1-s {
+  height: 50%;
+  background-image: url("resources/Minecraftspawn2hallow_4x.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#community-s {
+  height: 310%;
+  width: 100%;
+  background-color: black;
+}
+
+.community-s-title {
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  left: 50%;
+  top: 275%;
+  font-size: 30px;
+  text-align: center;
+}
+
+.community-s-title h2 {
+  position: relative;
+}
+
+.community-s-li {
+  position: relative;
+  list-style-type: none;
+  line-height: 100px;
+  top: 14%;
+  left: 5%;
+  width: 40%;
+  font-size: 20px;
+  left: 25%;
+  height: 400px;
+  width: 50%;
+  overflow: hidden;
+  overflow-y: scroll;
+  background-color: #040403;
+  border-radius: 10px;
+}
+
+.community-s-li li {
+  position: relative;
+  left: 10%;
+}
+
+.community-s-title1 {
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  left: 50%;
+  top: 367%;
+  font-size: 30px;
+  text-align: center;
+}
+
+.community-s-title1 h2 {
+  position: relative;
+}
+
+.community-s-li1 {
+  position: relative;
+  list-style-type: none;
+  line-height: 100px;
+  top: 30%;
+  left: 5%;
+  width: 40%;
+  font-size: 20px;
+  left: 25%;
+  height: 400px;
+  width: 50%;
+  overflow: hidden;
+  overflow-y: scroll;
+  background-color: #040403;
+  border-radius: 10px;
+}
+
+.community-s-li1 li {
+  position: relative;
+  left: 10%;
+}
+
+.community-s-imagecointainer {
+  position: absolute;
+  top: 460%;
+}
+
+.community-s-image {
+  position: relative;
+  width: 100%;
+  left: 0%;
+  top: 0%;
+  border-radius: 30px;
+}
+
+#community-s-li-firtplace1 {
+  color: #e414ff;
+}
+
+#community-s-li-firtplace2 {
+  color: #ea00ff;
+}
+
+#community-s-li-firtplace3 {
+  color: #b006ff;
+}
+
+#community-s-li-firtplace4 {
+  color: #6f00ff;
+}
+
+#community-s-li-firtplace5 {
+  color: #4c00ff;
+}
+
+#coolplaces-s {
+  height: 550%;
+  width: 100%;
+  background-color: black;
+}
+
+.coolplaces-s-title {
+  position: relative;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  left: 50%;
+  top: 4%;
+  font-size: 30px;
+  text-align: center;
+}
+
+.coolplaces-s-title h2 {
+  position: relative;
+}
+
+.coolplaces-s-image {
+  position: absolute;
+  width: 80%;
+  left: 0%;
+  border-radius: 20px;
+}
+
+.coolplaces-s-map {
+  position: absolute;
+  width: 20%;
+  left: 100%;
+  border-radius: 20px;
+}
+
+.coolplaces-s-list {
+  font-size: 20px;
+  position: relative;
+  top: 10%;
+  left: 30%;
+  width: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.coolplaces-s-list h3 {
+  position: relative;
+}
+
+.coolplaces-s-list p {
+  position: relative;
+}
+
+.coolplaces-s-list1 {
+  font-size: 20px;
+  position: relative;
+  top: 25%;
+  left: 30%;
+  width: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.coolplaces-s-list1 h3 {
+  position: relative;
+}
+
+.coolplaces-s-list1 p {
+  position: relative;
+}
+
+.coolplaces-s-list2 {
+  font-size: 20px;
+  position: relative;
+  top: 40%;
+  left: 30%;
+  width: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.coolplaces-s-list2 h3 {
+  position: relative;
+}
+
+.coolplaces-s-list2 p {
+  position: relative;
+}
+
+.coolplaces-s-list3 {
+  font-size: 20px;
+  position: relative;
+  top: 55%;
+  left: 30%;
+  width: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.coolplaces-s-list3 h3 {
+  position: relative;
+}
+
+.coolplaces-s-list3 p {
+  position: relative;
+}
+
+.coolplaces-s-list4 {
+  font-size: 20px;
+  position: relative;
+  top: 70%;
+  left: 30%;
+  width: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.coolplaces-s-list4 h3 {
+  position: relative;
+}
+
+.coolplaces-s-list4 p {
+  position: relative;
+}
+
+@media screen and (max-width: 1200px) {
+  .navbar {
+    left: 5%;
+    height: 10%;
+  }
+  .navbar a {
+    padding: 12px 10px;
+    font-size: 10px;
+  }
+  .info-s-title {
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    left: 50%;
+    top: 115%;
+    font-size: 20px;
+    width: 100%;
+  }
+  .info-s-li {
+    position: relative;
+    list-style-type: none;
+    line-height: 75px;
+    top: 25%;
+    left: 5%;
+    width: 100%;
+    font-size: 10px;
+  }
+  .info-s-imagecointainer {
+    visibility: hidden;
+  }
+  .community-s-title {
+    width: 100%;
+  }
+  .community-s-title1 {
+    width: 100%;
+  }
+  .community-s-li {
+    width: 60%;
+    left: 20%;
+  }
+  .community-s-li1 {
+    width: 60%;
+    height: 20%;
+    top: 25%;
+  }
+  .community-s-imagecointainer {
+    top: 480%;
+  }
+  .community-s-image {
+    width: 160%;
+    left: 0%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
