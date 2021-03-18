@@ -4,3 +4,6 @@ function LivemapOpenFUNC() {
   function DiscordInvite() {
     window.open("https://discord.gg/F2zFuaB")
   }
+  function GithubOpen() {
+    window.open("https://github.com/ZirixCZ/Quincysmcparty")
+  }
