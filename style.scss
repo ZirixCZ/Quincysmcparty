@@ -1,14 +1,8 @@
-$circle-w: 100px;
-$circle-bg: #fff;
-$arrow-bg:#55544F;
-$body-bg: #9DDCDC;
-$bezier: cubic-bezier(0.770, 0.000, 0.175, 1.000);
-$bezier-bounce: cubic-bezier(.87,-.41,.19,1.44);
-$anim-timing: 3s;
+$background-color: rgb(9, 9, 9);
 body, html {
     height: 100%;
     width: 100%;
-    background-color: black;
+    background-color: $background-color;
     margin: auto;
     font-family: 'Recursive', sans-serif;
     color: white;
@@ -116,3 +110,4 @@ background-size: cover;
 @import '_community-s';
 @import '_coolplaces-s.scss';
 @import '_media';
+@import '_footer';
