@@ -1,0 +1,37 @@
+#info-s {
+height: 100%;
+width: 100%;
+background-color: #000000;
+}
+.info-s-title {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 115%;
+    font-size: 30px;
+    text-align: center;
+    h2 {
+        position: relative;
+
+    }
+}
+.info-s-li {
+    position: relative;
+    list-style-type: none;
+    line-height: 100px;
+    top: 30%;
+    left: 5%;
+    width: 40%;
+    font-size: 20px;
+}
+.info-s-imagecointainer {
+    position: absolute;
+    top: 130%;
+}
+.join-s-image {
+    position: relative;
+    width: 50%;
+    left: 45%;
+    top: 0%;
+    border-radius: 30px;
+}

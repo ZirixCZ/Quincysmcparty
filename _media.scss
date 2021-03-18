@@ -1,0 +1,52 @@
+@media screen and (max-width: 1200px) {
+    .navbar {
+        left: 5%;
+        height: 10%;
+        a {
+            padding: 12px 10px;
+            font-size: 10px;
+        }
+    }
+    .info-s-title {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 115%;
+        font-size: 20px;
+        width: 100%
+    }
+    .info-s-li {
+        position: relative;
+        list-style-type: none;
+        line-height: 75px;
+        top: 25%;
+        left: 5%;
+        width: 100%;
+        font-size: 10px;
+    }
+    .info-s-imagecointainer {
+    visibility: hidden;
+    }
+    .community-s-title {
+        width: 100%;
+    }
+    .community-s-title1 {
+        width: 100%;
+    }
+    .community-s-li {
+        width: 60%;
+        left: 20%;
+    }
+    .community-s-li1 {
+        width: 60%;
+        height: 20%;
+        top: 25%;
+    }
+    .community-s-imagecointainer {
+        top: 480%;
+    }
+    .community-s-image {
+        width: 160%;
+        left: 0%;
+    }
+}

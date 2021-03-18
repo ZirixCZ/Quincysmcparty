@@ -1,0 +1,118 @@
+$circle-w: 100px;
+$circle-bg: #fff;
+$arrow-bg:#55544F;
+$body-bg: #9DDCDC;
+$bezier: cubic-bezier(0.770, 0.000, 0.175, 1.000);
+$bezier-bounce: cubic-bezier(.87,-.41,.19,1.44);
+$anim-timing: 3s;
+body, html {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    margin: auto;
+    font-family: 'Recursive', sans-serif;
+    color: white;
+    scroll-behavior: smooth;
+}
+.navbar {
+    position: fixed;
+    left: 5%;
+    height: 10%;
+    top: 0%;
+    z-index: 1;
+    cursor: pointer;
+    a {
+        text-shadow: rgb(0, 0, 0) 0px 0px 2px;
+        color: white;
+        text-decoration: none;
+        position: relative;
+        top: 25%;
+        padding: 12px 40px;
+        font-size: 15px;
+        &:hover {
+            text-shadow: rgb(0, 0, 0) 0px 0px 5px;
+            transition: 0.2s;
+        }
+    }
+}
+.main-title {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    text-align: center;
+    width: 70%;
+    padding: 30px;
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.158);
+    border-radius: 10px;
+    h1 {
+      position: relative;
+      font-size: 50px;
+      color: white;  
+    }
+}
+.main-parallax {
+background-image: url('resources/minecraftcastlebig_2x.png');
+height: 100%; 
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+::-webkit-scrollbar {
+	width: 5px;
+}
+	  
+::-webkit-scrollbar-track {
+	background-color: rgb(0, 0, 0);
+}
+	  
+::-webkit-scrollbar-thumb {
+	background: rgb(255, 255, 255);
+	border-radius: 4px;
+}
+	  
+::-webkit-scrollbar-thumb:hover {
+	background: rgba(255, 255, 255, 0.856);
+}
+.arrow{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.arrow span{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-bottom: 5px solid #ffffff;
+    border-right: 5px solid #ffffff;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+}
+.arrow span:nth-child(2){
+    animation-delay: -0.2s;
+}
+.arrow span:nth-child(3){
+    animation-delay: -0.4s;
+}
+@keyframes animate {
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px,-20px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(20px,20px);
+    }
+}
+@import 'join-s';
+@import '_fortressclose';
+@import '_community-s';
+@import '_coolplaces-s.scss';
+@import '_media';
