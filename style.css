@@ -236,9 +236,15 @@ body, html {
   overflow-y: scroll;
   background-color: #040403;
   border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
 .community-s-li li {
+  position: relative;
+  left: 10%;
+}
+.community-s-li a {
+  cursor: pointer;
   position: relative;
   left: 10%;
 }
